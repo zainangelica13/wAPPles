@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalwapples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="wAPPles"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="Signup" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home" >
+        </activity>
+        <activity
+            android:name=".Waffles_Menu"
+            android:label="Menu" >
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="Cart" >
+        </activity>
+        <activity
+            android:name=".Simply_Perfect"
+            android:label="Simply Perfect" >
+        </activity>
+        <activity
+            android:name=".Perfect_Combination"
+            android:label="Perfect Combination" >
+        </activity>
+        <activity
+            android:name=".Hot_Drinks"
+            android:label="Hot Drinks" >
+        </activity>
+        <activity
+            android:name=".Cold_Drinks"
+            android:label="Cold Drinks" >
+        </activity>
+        <activity
+            android:name=".Simply_Perfect1"
+            android:label="title_activity_simply__perfect1" >
+        </activity>
+        <activity
+            android:name=".AddtoCart"
+            android:label="Add to Cart" >
+        </activity>
+        <activity
+            android:name=".Perfect_Combination1"
+            android:label="Perfect Combination" >
+        </activity>
+        <activity
+            android:name=".Perfect_Combination2"
+            android:label="Perfect Combination" >
+        </activity>
+        <activity
+            android:name=".Confirmation"
+            android:label="Confirmation" >
+        </activity>
+        <activity
+            android:name=".DeleteItem"
+            android:label="@string/title_activity_delete_item" >
+        </activity>
+        <activity
+            android:name=".UpdateItem"
+            android:label="@string/title_activity_update_item" >
+        </activity>
+    </application>
+
+</manifest>

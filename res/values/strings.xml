@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">FinalwAPPles</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_waffles__menu">Waffles_Menu</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_simply__perfect">Simply_Perfect</string>
+    <string name="title_activity_perfect__combination">Perfect_Combination</string>
+    <string name="title_activity_hot__drinks">Hot_Drinks</string>
+    <string name="title_activity_cold__drinks">Cold_Drinks</string>
+    <string name="title_activity_simply__perfect1">Simply_Perfect1</string>
+    <string name="title_activity_addto_cart">AddtoCart</string>
+    <string name="title_activity_perfect__combination1">Perfect_Combination1</string>
+    <string name="title_activity_perfect__combination2">Perfect_Combination2</string>
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="title_activity_delete_item">DeleteItem</string>
+    <string name="title_activity_update_item">UpdateItem</string>
+
+</resources>
